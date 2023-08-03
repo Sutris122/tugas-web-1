@@ -35,23 +35,23 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "nama anda harus diisi",
+                    minlength: "nama anda harus terdiri dari minimal 2 karakter"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "subjek harus diisi",
+                    minlength: "subjek Anda harus terdiri dari minimal 4 karakter"
                 },
                 number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "nomor harus diisi",
+                    minlength: "nomor Anda harus terdiri dari minimal 5 karakter"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "email harus diisi"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "anda harus menulis sesuatu untuk mengirimkan formulir ini",
+                    minlength: "itu saja? sungguh?"
                 }
             },
             submitHandler: function(form) {
